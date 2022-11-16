@@ -1,18 +1,19 @@
-#include <vector>
 #include <iostream>
-#include <fstream>
-
+#include <string>
 
 std::istream& readAndPrint(std::istream& is) {
-	char a; 
+	std::string a;
 	while (is >> a) {
-		std::cout << a << ' '; 
+		std::cout << a << ' ' << std::endl;
 	}
-	return is; 
+	std::cout << std::endl;
+
+	is.clear();
+	return is;
 }
 
 int main() {
-	readAndPrint(std::cin); 
+	readAndPrint(std::cin);
 
-	return 0; 
+	return 0;
 }
