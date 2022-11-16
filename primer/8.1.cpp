@@ -13,8 +13,8 @@ std::istream& readAndPrint(std::istream& is) {
 	return is;
 }
 
-int main() {
-	readAndPrint(std::cin);
+//int main() {
+	//readAndPrint(std::cin);
 
-	return 0;
-}
+	//return 0;
+//}
