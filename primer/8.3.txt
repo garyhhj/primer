@@ -1,0 +1,6 @@
+while(cin >> i) /* ... */ 
+
+the while loop will terminate if: 
+1. badbit is set to true (system level error, unrecoverable)
+2. failbit is set to true (recoverable error, such as reading a char when int is expected)
+3. eof sets badbit and failbit both to true (use is.clear() to recover)
