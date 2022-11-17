@@ -63,7 +63,7 @@ private:
 	 return os; 
  }
 
-
+ /*
 int main() {
 	//argc and argv is very inconvenient in vs, need to keep messing with project properties 
 
@@ -87,3 +87,4 @@ int main() {
 	total.combine(trans); 
 	total.print(std::cout, total); 
 }
+*/
