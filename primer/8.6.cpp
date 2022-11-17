@@ -2,7 +2,7 @@
 #include <fstream>
 #include <string>
 
-
+/*
 class Sales_data;
 
 class Sales_data {
@@ -63,7 +63,7 @@ private:
 	 return os; 
  }
 
- /*
+ 
 int main() {
 	//argc and argv is very inconvenient in vs, need to keep messing with project properties 
 

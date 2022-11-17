@@ -2,8 +2,8 @@
 #include <fstream>
 #include <string>
 
-/*
-class Sales_data; 
+
+class Sales_data;
 
 class Sales_data {
 public:
@@ -81,6 +81,11 @@ int main() {
 		return 0;
 	}
 
+	if (!ofstrm) {
+		std::cerr << ofname << " cannot be opened" << std::flush; 
+		return 0; 
+	}
+
 	Sales_data total;
 	Sales_data trans;
 
@@ -89,5 +94,10 @@ int main() {
 
 	total.combine(trans);
 	total.print(ofstrm, total);
+
+	//closing and calling print again
+	ofstrm.close(); 
+	ofstrm.open(ofname, std::ofstream::app); 
+	total.print(ofstrm, total);  
+	return 0; 
 }
-*/
