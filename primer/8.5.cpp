@@ -21,7 +21,7 @@ std::vector<std::string> read(const std::string fname) {
 	return vs; 
 }
 
-
+/*
 int main() {
 	std::string fname; 
 	std::cin >> fname; 
@@ -34,3 +34,4 @@ int main() {
 
 	return 0; 
 }
+*/
