@@ -17,8 +17,10 @@ std::istream& read(std::istream& is) {
 	return is;
 }
 
+/*
 int main() {
 	read(std::cin);
 
 	return 0;
 }
+*/
