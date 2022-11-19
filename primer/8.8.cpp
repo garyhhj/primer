@@ -2,7 +2,7 @@
 #include <fstream>
 #include <string>
 
-
+/*
 class Sales_data;
 
 class Sales_data {
@@ -101,3 +101,4 @@ int main() {
 	total.print(ofstrm, total);  
 	return 0; 
 }
+*/
