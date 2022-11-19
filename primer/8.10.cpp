@@ -31,7 +31,8 @@ void read() {
 	}
 }
 
-
+/*
 int main() {
 	read(); 
 }
+*/
