@@ -59,5 +59,8 @@
     <Text Include="output.txt">
       <Filter>Source Files\ch8</Filter>
     </Text>
+    <Text Include="8.12.txt">
+      <Filter>Source Files\ch8</Filter>
+    </Text>
   </ItemGroup>
 </Project>

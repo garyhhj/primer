@@ -1,0 +1,2 @@
+the synthesized default initializer will be called so we don't need to explicitly define an in class initializer. 
+we are also getting data at runtime so initializer values will be over written anyways
