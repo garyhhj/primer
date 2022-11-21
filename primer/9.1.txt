@@ -1,0 +1,6 @@
+a) you can read into a vector and then sort -> time complexity of nlog(n)
+   you can also read into a list since insertion in the middle is relatively quick 
+
+b) deque since insertion and deletion from beginning and end are o(1)
+
+c) I would use a vector which would take nlog(n) time. This can be reduced to o(n) by using counting sort if all values are >= 0
