@@ -1,0 +1,4 @@
+the two iterators begin and end must: 
+
+1. refer to elements of the container or one past the last element of the container
+2. end is reacheable from begin by continously incrementing 
