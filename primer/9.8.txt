@@ -1,0 +1,2 @@
+you can use std::list<std::string>::iterator or std::list<std::string>::const_iterator to read elements. 
+You can use std::list<std::string>::iterator to write elements 
