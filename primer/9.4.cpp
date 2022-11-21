@@ -1,6 +1,7 @@
 #include <vector>
 #include <iostream>
 
+/*
 bool hasVal(std::vector<int>::const_iterator begin, std::vector<int>::const_iterator end, int val) {
 	while (begin != end) {
 		if (*begin == val) {
@@ -24,3 +25,4 @@ int main() {
 
 	return 0; 
 }
+*/
