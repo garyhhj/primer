@@ -4,6 +4,7 @@
 #include <sstream>
 #include <string>
 
+/*
 struct PersonInfo {
 	std::string name;
 	std::vector<std::string> phones;
@@ -85,3 +86,4 @@ int main() {
 	read(people);
 	print(people); 
 }
+*/
