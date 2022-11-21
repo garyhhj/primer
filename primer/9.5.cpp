@@ -1,6 +1,6 @@
 #include <vector>
 #include <iostream>
-
+/*
 std::vector<int>::iterator hasVal(std::vector<int>::iterator begin, std::vector<int>::iterator end, int val) {
 	while (begin != end) {
 		if (*begin == val) {
@@ -25,3 +25,4 @@ int main() {
 
 	return 0;
 }
+*/
