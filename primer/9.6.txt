@@ -1,0 +1,3 @@
+list does not support iterator arithmetic so the while loop should be 
+
+while(iter1 != iter2) /* ... */

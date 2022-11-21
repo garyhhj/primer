@@ -86,5 +86,8 @@
     <Text Include="9.3.txt">
       <Filter>Source Files\ch9</Filter>
     </Text>
+    <Text Include="9.6.txt">
+      <Filter>Source Files\ch9</Filter>
+    </Text>
   </ItemGroup>
 </Project>

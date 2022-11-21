@@ -17,6 +17,7 @@ int main() {
 		v.push_back(i);
 	}
 
+
 	int val;
 	std::cin >> val;
 
