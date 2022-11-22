@@ -60,6 +60,9 @@
     <ClCompile Include="9.5.cpp">
       <Filter>Source Files\ch9</Filter>
     </ClCompile>
+    <ClCompile Include="9.11.cpp">
+      <Filter>Source Files\ch9</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="8.2.txt">
