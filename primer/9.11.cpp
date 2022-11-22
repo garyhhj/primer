@@ -1,7 +1,6 @@
-#include <array>
 #include <vector>
-#include <iostream>
 
+/*
 int main() {
 	std::vector<int> v1; //empty vector 
 	std::vector<int> v2(v1); //empty vector 
@@ -17,3 +16,4 @@ int main() {
 
 	return 0; 
 }
+*/
