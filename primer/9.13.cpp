@@ -2,6 +2,7 @@
 #include <list>
 #include <iostream>
 
+/*
 int main() {
 	std::list<int> l1 = { 1, 2, 3 };
 	std::vector<int> v1 = { 3, 2, 1 };
@@ -21,3 +22,4 @@ int main() {
 
 	return 0; 
 }
+*/
