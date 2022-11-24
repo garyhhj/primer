@@ -1,7 +1,7 @@
 #include <string>
 #include <deque>
 #include <iostream>
-
+/*
 void read(std::deque<std::string>& ds) {
 	std::string s; 
 	while (std::cin >> s) {
@@ -26,3 +26,4 @@ int main() {
 
 	return 0; 
 }
+*/
