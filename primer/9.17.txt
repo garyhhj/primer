@@ -1,0 +1,3 @@
+the container types and element types in the lefthand and righthand operands must match 
+
+the elements inside those containers must have the '<' operator defined 
