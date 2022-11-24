@@ -1,0 +1,4 @@
+insert for list and vectors are functionally the same 
+
+However, inserting at the beginning of the vector will cause the all the elements of the vector to be moved back by 1 index 
+and is therefore more costly than inserting at a list(double ended linked list)
