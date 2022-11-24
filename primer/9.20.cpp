@@ -1,7 +1,7 @@
 #include <list>
 #include <deque>
 #include <iostream>
-
+/*
 void read(std::list<int>& input) {
 	int i; 
 	while (std::cin >> i) {
@@ -59,3 +59,4 @@ int main() {
 
 	return 0; 
 }
+*/

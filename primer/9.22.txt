@@ -1,0 +1,1 @@
+need to update the iterator pointer or else the code will run infinitely in the while loop 
