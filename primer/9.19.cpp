@@ -1,7 +1,7 @@
 #include <string>
 #include <list>
 #include <iostream>
-
+/*
 void read(std::list<std::string>& ls) {
 	std::string s;
 	while (std::cin >> s) {
@@ -26,3 +26,4 @@ int main() {
 
 	return 0;
 }
+*/
