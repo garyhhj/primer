@@ -3,7 +3,7 @@
 #include <string>
 #include <sstream>
 #include <list>
-
+/*
 int main() {
 	std::list<int> l; 
 	std::vector<int> v; 
@@ -60,3 +60,4 @@ int main() {
 
 	return 0; 
 }
+*/
