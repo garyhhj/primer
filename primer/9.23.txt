@@ -1,0 +1,6 @@
+val = firstElement 
+val2 = firstElement 
+val3 = firstElement 
+val4 = firstElement 
+
+all of them are copies 
