@@ -153,7 +153,6 @@
     <ClCompile Include="9.26.cpp" />
     <ClCompile Include="9.27.cpp" />
     <ClCompile Include="9.28.cpp" />
-    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="8.2.txt" />
@@ -174,6 +173,7 @@
     <Text Include="9.21.txt" />
     <Text Include="9.22.txt" />
     <Text Include="9.23.txt" />
+    <Text Include="9.29.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
