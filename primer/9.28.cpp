@@ -24,11 +24,8 @@ int main() {
 	std::forward_list<std::string> flst = { "meow", "meoww", "meowww" }; 
 	
 	std::string s1, s2; 
-	std::cin >> s1, s2; 
-	insertAfter(flst, s1, s2); //doesn't insert and no error 
-	insertAfter(flst, "meow", "ele"); //inserts properly 
-
-
+	std::cin >> s1 >> s2; 
+	insertAfter(flst, s1, s2); 
 
 	//prints flst
 	std::cout << "flst: "; 
