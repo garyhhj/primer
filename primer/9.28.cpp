@@ -1,7 +1,7 @@
 #include <iostream>
 #include <forward_list>
 #include <string> 
-
+/*
 //inserts s2 after s1 which is in the forward_list, else insert at the back 
 void insertAfter(std::forward_list<std::string>& flst, const std::string& s1, const std::string& s2) {
 	auto curr = flst.begin(); 
@@ -36,3 +36,4 @@ int main() {
 
 	return 0; 
 }
+*/
