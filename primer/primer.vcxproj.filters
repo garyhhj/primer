@@ -93,7 +93,10 @@
     <ClCompile Include="9.26.cpp">
       <Filter>Source Files\ch9</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="9.27.cpp">
+      <Filter>Source Files\ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="9.28.cpp">
       <Filter>Source Files\ch9</Filter>
     </ClCompile>
   </ItemGroup>
