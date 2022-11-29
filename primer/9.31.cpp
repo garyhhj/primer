@@ -3,6 +3,7 @@
 #include <forward_list> 
 #include <list>
 
+/*
 void sillyFli(std::forward_list<int>& fli) {
 	auto curr = fli.begin();
 	auto prev = fli.before_begin(); 
@@ -64,3 +65,4 @@ int main() {
 
 	
 }
+*/
