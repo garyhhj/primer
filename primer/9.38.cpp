@@ -1,6 +1,7 @@
 #include <vector>
 #include <iostream>
 
+//capacity follows this pattern a(n) = floor(a(n-1)*3/2) with a(1) = 2
 /*
 int main() {
 	std::vector<int> vi; 
@@ -25,4 +26,3 @@ int main() {
 }
 */
 
-//capacity follows this pattern a(n) = floor(a(n-1)*3/2) with a(1) = 2
