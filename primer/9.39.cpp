@@ -1,7 +1,7 @@
 #include <vector>
 #include <iostream>
 #include <string>
-
+/*
 int main() {
 	std::vector<std::string> svec; 
 	svec.reserve(1024); //preallocates 1024 'strings'
@@ -15,3 +15,4 @@ int main() {
 	//it may or may not need to reallcoate memory depending on the amount of elements inserted 
 	svec.resize(svec.size() + svec.size() / 2); 
 }
+*/

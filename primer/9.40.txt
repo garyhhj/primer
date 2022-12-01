@@ -1,0 +1,4 @@
+if the program reads 256 words, capacity is 1024 
+if the program reads 512 words, capacity is 1024 
+if the program reads 1000 words, capacity is 1000 
+if the program reads 1048 words, capacity is 1048 or greater 
