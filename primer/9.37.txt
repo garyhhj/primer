@@ -1,0 +1,3 @@
+there is no need to reallocate or pre-allocate memory for list since its a linked list so there is no need for capacity 
+
+the size of an array is fixed so there is no need for capacity. It's capacity is it's size. 
