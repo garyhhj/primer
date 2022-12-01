@@ -1,0 +1,2 @@
+capacity is the number of elements that the vector can hold 
+size is the number of elements in a vector 
