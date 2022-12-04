@@ -1,0 +1,1 @@
+we can call s.reserve(numOfCharacters); to reserve space in string s 
