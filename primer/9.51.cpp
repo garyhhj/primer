@@ -3,7 +3,7 @@
 #include <map>
 #include <sstream>
 
-
+/*
 class date {
 	friend bool isLetter(char i); 
 public: 
@@ -91,3 +91,4 @@ int main() {
 	date a("January 12, 1900"); 
 	a.printDate(); 
 }
+*/
