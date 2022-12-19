@@ -117,7 +117,10 @@
     <ClCompile Include="9.41.cpp">
       <Filter>Source Files\ch9</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="9.50.cpp">
+      <Filter>Source Files\ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="9.51.cpp">
       <Filter>Source Files\ch9</Filter>
     </ClCompile>
   </ItemGroup>

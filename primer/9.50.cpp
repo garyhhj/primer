@@ -2,6 +2,7 @@
 #include <string>
 #include <iostream>
 
+/*
 int main() {
 	std::vector<std::string> vs = { "12.1", "23", "34"};
 
@@ -13,3 +14,5 @@ int main() {
 	}
 	std::cout << sum << std::endl; 	
 }
+*/
+
