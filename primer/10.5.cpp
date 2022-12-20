@@ -3,6 +3,7 @@
 #include <numeric>
 #include <iostream>
 
+/*
 int main() {
 	std::vector<std::string> vs1 = { "meow", "cat", "meow" }; 
 	std::vector<std::string> vs2 = { "meow", "cat", "meow", "meow" }; 
@@ -16,3 +17,4 @@ int main() {
 	//two c style string 
 	std::cout << (std::equal(vs3.cbegin(), vs3.cend(), vs4.cbegin()) ? "equal" : "not equal") << std::endl; 
 }
+*/
