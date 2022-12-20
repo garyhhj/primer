@@ -19,6 +19,9 @@
     <Filter Include="Source Files\ch9">
       <UniqueIdentifier>{5b9cbdd5-20cb-4777-8e33-403abee7f76e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ch10">
+      <UniqueIdentifier>{0b4784cc-ebe2-40b7-84f2-d8892dbd2b0a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="8.1.cpp">
@@ -125,6 +128,9 @@
     </ClCompile>
     <ClCompile Include="9.52.cpp">
       <Filter>Source Files\ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="10.1.cpp">
+      <Filter>Source Files\ch10</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -2,6 +2,7 @@
 #include <stack>
 #include <string>
 
+/*
 //can be done more efficiently by just copying only parenthesis to another stack to check to avoid constantly popping and pushing 
 void processParenthesizedExpression(std::stack<char>& charStk, const std::string expression) {
 	for (const char i : expression) {
@@ -58,3 +59,4 @@ int main() {
 	}
 
 }
+*/
