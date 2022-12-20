@@ -2,7 +2,7 @@
 #include <list>
 #include <string>
 
-
+/*
 int main() {
 	std::string s;
 	std::list<std::string> ls; 
@@ -13,3 +13,4 @@ int main() {
 	int freq = std::count(ls.cbegin(), ls.cend(), "hello"); 
 	std::cout << freq << std::endl; 
 }
+*/
