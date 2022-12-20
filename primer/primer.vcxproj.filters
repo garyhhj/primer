@@ -138,6 +138,9 @@
     <ClCompile Include="10.3.cpp">
       <Filter>Source Files\ch10</Filter>
     </ClCompile>
+    <ClCompile Include="10.5.cpp">
+      <Filter>Source Files\ch10</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="8.2.txt">
@@ -220,6 +223,9 @@
     </Text>
     <Text Include="9.43-9.50.txt">
       <Filter>Source Files\ch9</Filter>
+    </Text>
+    <Text Include="10.4.txt">
+      <Filter>Source Files\ch10</Filter>
     </Text>
   </ItemGroup>
 </Project>

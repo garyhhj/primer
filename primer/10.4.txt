@@ -1,0 +1,5 @@
+accumulate(v.cbegin(), v.cend(), 0)
+
+if v is a vector<double>, but accumulate returns int since last argument is '0', it will convert double to int 
+when calling accumulate we will lose the decimal 
+

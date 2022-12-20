@@ -2,6 +2,7 @@
 #include <vector>
 #include <numeric>
 
+/*
 int main() {
 	std::vector<int> vi; 
 	int ele; 
@@ -12,3 +13,4 @@ int main() {
 	int sum = std::accumulate(vi.cbegin(), vi.cend(), 0); 
 	std::cout << sum << std::endl; 
 }
+*/
