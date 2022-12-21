@@ -2,6 +2,7 @@
 #include <vector>
 #include <algorithm>
 
+/*
 int main() {
 	std::vector<int> vi; 
 	int ele; 
@@ -28,4 +29,5 @@ int main() {
 	} std::cout << std::endl; 
 
 }
+*/
 
