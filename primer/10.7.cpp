@@ -3,6 +3,7 @@
 #include <numeric>
 #include <list>
 
+/*
 int main() {
 	
 	//part a 
@@ -36,3 +37,5 @@ int main() {
 	std::cout << std::endl; 
 
 }
+*/
+
