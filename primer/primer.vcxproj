@@ -173,6 +173,7 @@
     <ClCompile Include="10.12.cpp" />
     <ClCompile Include="10.13.cpp" />
     <ClCompile Include="10.14.cpp" />
+    <ClCompile Include="10.15.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="8.2.txt" />
