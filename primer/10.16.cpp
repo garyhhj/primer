@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 
+/*
 //prints number of words of a given size or greater
 //prints the words of that size or greaqter 
 void biggies(std::vector<std::string>& words, std::vector<std::string>::size_type sz) {
@@ -32,3 +33,4 @@ int main() {
 
 	biggies(words, sz); 
 }
+*/
