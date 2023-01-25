@@ -3,6 +3,7 @@
 #include <string>
 #include <algorithm>
 
+/*
 class Sales_data {
 public:
 
@@ -44,6 +45,5 @@ int main() {
 	for (auto book : bookStore) {
 		std::cout << book.isbn() << "\n";
 	}
-
-
 }
+*/
