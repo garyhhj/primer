@@ -3,7 +3,7 @@
 #include <string>
 #include <functional>
 
-
+/*
 bool check_size(std::string& word, int sz) {
 	return word.size() < sz; 
 }
@@ -37,3 +37,4 @@ int main() {
 		std::cout << *it << "\n";
 	}
 }
+*/
