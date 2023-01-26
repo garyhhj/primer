@@ -1,0 +1,1 @@
+std::bind takes the number of arguments the first argument(original callable) takes + 1
