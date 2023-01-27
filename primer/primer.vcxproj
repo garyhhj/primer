@@ -185,6 +185,7 @@
     <ClCompile Include="10.25.cpp" />
     <ClCompile Include="10.27.cpp" />
     <ClCompile Include="10.28.cpp" />
+    <ClCompile Include="10.29.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="8.2.txt" />
@@ -219,6 +220,7 @@
     <Text Include="10.10.txt" />
     <Text Include="10.23.txt" />
     <Text Include="10.26.txt" />
+    <Text Include="10.29.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
