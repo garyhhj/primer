@@ -10,5 +10,7 @@ int main() {
 
 	std::sort(vi.begin(), vi.end()); 
 
-	for (auto i : vi) std::cout << i << " "; 
+
+	std::ostream_iterator<int> o_it(std::cout, " ");
+	std::copy(vi.begin(), vi.end(), o_it); 
 }
