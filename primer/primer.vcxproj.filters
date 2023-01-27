@@ -287,5 +287,8 @@
     <Text Include="10.23.txt">
       <Filter>Source Files\ch10</Filter>
     </Text>
+    <Text Include="10.26.txt">
+      <Filter>Source Files\ch10</Filter>
+    </Text>
   </ItemGroup>
 </Project>
