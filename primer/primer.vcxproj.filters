@@ -195,6 +195,9 @@
     <ClCompile Include="10.27.cpp">
       <Filter>Source Files\ch10</Filter>
     </ClCompile>
+    <ClCompile Include="10.28.cpp">
+      <Filter>Source Files\ch10</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="8.2.txt">
