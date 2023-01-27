@@ -2,7 +2,7 @@
 #include <fstream>
 #include <string>
 #include <vector>
-
+/*
 int main() {
 	std::ifstream ifstr("10.29.txt"); 
 	
@@ -15,3 +15,4 @@ int main() {
 	}
 	std::cout << std::endl; 
 }
+*/
