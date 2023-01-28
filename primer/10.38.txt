@@ -1,0 +1,24 @@
+Input iterator: 
+	==, != equality and inequailty to compare iterators 
+	++ prefix and postfix increment to advance iterators
+	* dereference to read elements (appear on rhs assignment)
+	-> arrow operator to fetch members 
+
+Output Iterator: 
+	++ prefix and postfix increment to advance iterators 
+	* dereference to write elemnets (appear on lhs of assignment)
+
+Forward Iterator: 
+	everything in Input iterator and Output iterator 
+
+Bidirectional Iterator: 
+	everything in Input iterator and Output iterator
+	-- prefix and postfix decrement to decrement iterator 
+
+Random-access Iterator: 
+	everything in Input iterator and Output iterator 
+	-- prefix and postfix decrement to decrement iterator 
+	<, <=, >, >= relational operators (to compare relative position of two iterators)
+	+, +=, -, -= addition and subtraction operators (for iterators and integral values)
+	- subtraction operator (difference between two iterators)
+	iter[n] subscript iterator (also same as *(iter + n))
