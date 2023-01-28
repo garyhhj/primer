@@ -3,7 +3,7 @@
 #include <iterator>
 #include <algorithm>
 
-
+/*
 int main() {
 
 	std::istream_iterator<int> is_it(std::cin), is_eof;
@@ -15,3 +15,4 @@ int main() {
 	std::ostream_iterator<int> o_it(std::cout, " ");
 	std::unique_copy(vi.begin(), vi.end(), o_it);
 }
+*/
