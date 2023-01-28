@@ -1,0 +1,3 @@
+copy - first two argument requires input iterator to read elements, last argument requires output iterator to write elements 
+reverse - requires bidirectional iterator 
+unique - requires forward iterator 
