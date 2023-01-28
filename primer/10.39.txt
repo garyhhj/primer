@@ -1,0 +1,2 @@
+list - bidirectional iterator since it can read and write as well as increment and decrement both sides 
+vector - random access iterator since it has random access to elements 
