@@ -1,0 +1,5 @@
+map - maps a key to a value 
+set - only has a key 
+
+when we want to associate keys to values we choose a map 
+when we want to keep track of a set of non repeating elements we choose set 

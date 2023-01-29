@@ -4,7 +4,7 @@
 #include <string>
 
 
-
+/*
 void ignore_case_punctuation(std::string& word) {
 	std::string new_word = "";
 
@@ -46,3 +46,4 @@ int main() {
 		std::cout << w.first << " : " << w.second << "\n";
 	}
 }
+*/
