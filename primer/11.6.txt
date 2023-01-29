@@ -1,0 +1,5 @@
+set - keeps a set of non repeating keys 
+list - keeps a consecutive set of values 
+
+we use a set when we want non repeating keys
+we use a list if we want to manipulate order of elements and want to allow repeating values 
