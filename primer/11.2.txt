@@ -1,0 +1,5 @@
+list -  when you need to remove and insert elements at the middle 
+vector - when you need to store elements contiguously and need random access to those elements 
+deque - when you need to remove and insert elements at the front 
+map - when you need "fast" random access to elements and cannot use positive number as the key 
+set - when you only want a single copy of elements 
