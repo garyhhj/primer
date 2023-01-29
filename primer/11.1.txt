@@ -1,0 +1,5 @@
+map is associative container, a key is mapped to a value 
+vector is sequential container, values are store contiguously 
+
+the key is a map is similar to the index of a vector which allows you to access elements/values. 
+The key does not have to be an integer but the index does. 
