@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 
+/*
 int main() {
 
 	std::set<std::string> exclude = { "woof" }; 
@@ -19,3 +20,4 @@ int main() {
 		std::cout << w.first << " : " << w.second << "\n";
 	}
 }
+*/
