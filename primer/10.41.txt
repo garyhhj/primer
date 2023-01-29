@@ -1,0 +1,11 @@
+replace(beg, end, old_val, new_val);
+replaces all old_val in iterator range [beg, end) with new_val; 
+
+replace_if(beg, end, pred, new_val);
+replaces all elements in iterator range [beg, end) when pred evaluates to non-zero value with new_val
+
+replace_copy(beg, end, dest, old_val, new_val);
+copies all the elements in iterator range [beg, end) to dest with all old_val replaced with new_val 
+
+replace_copy_if(beg, end, dest, pred, new_val);
+copies all elements in iterator range [beg, end) to dest with all elements where pred evaluates to non-zero value begin replaced with new_val; 
