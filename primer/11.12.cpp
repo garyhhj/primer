@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 
+/*
 int main() {
 	std::vector<std::pair<std::string, int>> vsi; 
 
@@ -21,4 +22,4 @@ int main() {
 
 	std::cout << vsi.size() << std::endl;
 }
-
+*/
