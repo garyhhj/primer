@@ -1,7 +1,7 @@
 #include <map>
 #include <iostream>
 
-
+/*
 int main() {
 	std::map<int, int> mp = { {1, 2} }; 
 
@@ -12,3 +12,4 @@ int main() {
 
 	std::cout << mp_it->first << " : " << mp_it->second; 
 }
+*/
