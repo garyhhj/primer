@@ -252,6 +252,9 @@
     <ClCompile Include="11.16.cpp">
       <Filter>Source Files\ch11</Filter>
     </ClCompile>
+    <ClCompile Include="11.17.cpp">
+      <Filter>Source Files\ch11</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="8.2.txt">
@@ -383,7 +386,7 @@
     <Text Include="11.15.txt">
       <Filter>Source Files\ch11</Filter>
     </Text>
-    <Text Include="11.17.txt">
+    <Text Include="11.18.txt">
       <Filter>Source Files\ch11</Filter>
     </Text>
   </ItemGroup>
