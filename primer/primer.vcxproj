@@ -240,6 +240,7 @@
     <Text Include="11.2.txt" />
     <Text Include="11.5.txt" />
     <Text Include="11.6.txt" />
+    <Text Include="11.10.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

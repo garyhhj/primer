@@ -1,0 +1,4 @@
+all keys in the map must support arithmetic operator "<". 
+
+std::vector<int>::iterator support "<" arithmetic operator so we can define std::map<std::vector<int>::iterator, int> 
+std::list<int>::iterator does not support "<" arithmetic operator so we can not define std::map<std::list<int>::iterator,int> 
