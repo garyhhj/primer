@@ -3,7 +3,7 @@
 #include <string>
 #include <iostream>
 
-
+/*
 typedef std::string family;
 typedef std::string child;
 typedef std::string bday; 
@@ -57,3 +57,4 @@ int main() {
 	add_children(name_members, last_name, children2);
 	print_map(name_members);
 }
+*/
