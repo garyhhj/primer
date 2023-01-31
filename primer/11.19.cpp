@@ -5,7 +5,7 @@
 #include <iostream>
 #include <string>
 
-
+/*
 class Sales_data {
 
 public:
@@ -49,3 +49,4 @@ int main() {
 	std::multiset<Sales_data, bool (*)(const Sales_data& lhs, const Sales_data& rhs)>::iterator 
 		salesdata_booknum_it = salesdata_booknum.begin(); 
 }
+*/
