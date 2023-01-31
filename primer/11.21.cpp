@@ -2,6 +2,7 @@
 #include <map>
 #include <string>
 
+/*
 int main() {
 	std::map<std::string, std::size_t> mp; 
 
@@ -16,3 +17,4 @@ int main() {
 		std::cout << i.first << " " << i.second << "\n"; 
 	}
 }
+*/

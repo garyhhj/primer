@@ -1,0 +1,3 @@
+std::pair<std::map<std::string, std::vector<int>>::iterator, bool>
+
+is return type from insert when called on map
