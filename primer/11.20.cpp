@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 
-
+/*
 int main() {
 	std::map<std::string, int> word_count; 
 
@@ -28,3 +28,4 @@ int main() {
 
 
 }
+*/
