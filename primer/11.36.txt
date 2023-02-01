@@ -1,0 +1,3 @@
+for program written in 11.33, it will map the key to an empty string 
+
+this means that when transforming the text, it will replace words with empty string 
