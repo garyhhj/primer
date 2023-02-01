@@ -1,0 +1,1 @@
+std::insert for maps will not replace old pair values in map 
