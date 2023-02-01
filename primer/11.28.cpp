@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 
+/*
 int main() {
 	std::map<std::string, std::vector<int>> str_vi; 
 
@@ -10,3 +11,4 @@ int main() {
 		it = str_vi.find("meow"); 
 
 }
+*/
