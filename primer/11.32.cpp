@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-
+/*
 void print(std::multimap<std::string, std::string>& author_booknames) {
 	for (auto& author_bookname : author_booknames) {
 		std::cout << author_bookname.first << " : " << author_bookname.second << "\n";
@@ -44,3 +44,4 @@ int main() {
 	std::cout << "\n";
 	print(author_booknames);
 }
+*/
