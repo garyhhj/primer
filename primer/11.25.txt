@@ -1,0 +1,2 @@
+vector<int> v; //initializes empty vector 
+v[0] = 1; //vector subscript out of range error 
