@@ -12,7 +12,7 @@ int main() {
 	//key is not in container will return c.end()
 	std::map<int, int>::iterator lb = mp.lower_bound(1); 
 
-	//upper_bound returns tireator to "last" element with the key 
+	//upper_bound returns itrator to one past "last" element with the key 
 	//key is not in container will return c.end()
 	std::map<int, int>::iterator ub = mp.upper_bound(9); 
 
