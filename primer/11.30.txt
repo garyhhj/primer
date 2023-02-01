@@ -1,0 +1,4 @@
+pos.first->second 
+
+pos.first - iterator to first element with key searched 
+pos.first->second - value for the iterator to first element with key searched 

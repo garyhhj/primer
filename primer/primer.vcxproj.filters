@@ -422,5 +422,8 @@
     <Text Include="11.27.txt">
       <Filter>Source Files\ch11</Filter>
     </Text>
+    <Text Include="11.30.txt">
+      <Filter>Source Files\ch11</Filter>
+    </Text>
   </ItemGroup>
 </Project>
