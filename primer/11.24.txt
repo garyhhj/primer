@@ -1,0 +1,2 @@
+map<int, int> m; //initializes an empty map with int to int named m 
+m[0] = 1; //sets value to 1 when key is 0
