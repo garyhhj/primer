@@ -1,0 +1,2 @@
+a key_type can be used to subscript a map 
+the subscript operator will return the mapped_type
