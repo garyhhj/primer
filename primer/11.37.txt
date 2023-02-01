@@ -1,0 +1,8 @@
+advantages of ordered containers 
+- the elements are sorted 
+- easier to use 
+
+advantages of unordered containers 
+- hashing gives better average case performan (in principle)
+- no over head for sorting the elements 
+- look up and insertion at constant time 

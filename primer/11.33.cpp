@@ -4,7 +4,7 @@
 #include <fstream>
 #include <sstream>
 
-
+/*
 void buildMap(std::map<std::string, std::string>& trans_map) {
 	std::fstream fstr("11.33rule.txt"); 
 
@@ -69,3 +69,4 @@ int main() {
 	std::cout << "\n"; 
 	wordTransform(trans_map);
 }
+*/
