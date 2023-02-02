@@ -291,7 +291,7 @@
     <ClCompile Include="11.382.cpp">
       <Filter>Source Files\ch11</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="12.2.cpp">
       <Filter>Source Files\ch12</Filter>
     </ClCompile>
   </ItemGroup>

@@ -19,7 +19,10 @@ public:
 
 	//access element 
 	std::string& front(); 
+	const std::string& front() const;
+
 	std::string& back(); 
+	const std::string& back() const; 
 
 	//printing elements 
 	void print(); 
@@ -46,14 +49,30 @@ void StrBlob::pop_back() {
 
 //accessing elements 
 std::string& StrBlob::front() {
+	std::cout << "calling normal front" << std::endl; 
+	check(0, "front on empty StrBlob"); 
+	return data->front(); 
+}
+
+const std::string& StrBlob::front() const {
+	std::cout << "calling const overloaded front" << std::endl; 
 	check(0, "front on empty StrBlob"); 
 	return data->front(); 
 }
 
 std::string& StrBlob::back() {
+	std::cout << "calling normal back" << std::endl; 
 	check(0, "back on empty StrBlob"); 
 	return data->back(); 
 }
+
+const std::string& StrBlob::back() const {
+	std::cout << "calling const overloaded back" << std::endl; 
+
+	check(0, "back on empty StrBlob");
+	return data->back();
+}
+
 
 void StrBlob::check(size_type i, const std::string& msg) const {
 	if (i >= data->size()) {
@@ -72,23 +91,9 @@ void StrBlob::print() {
 
 int main() {
 
-	/*
-	std::shared_ptr<int> ptr1 = std::make_shared<int>(42); 
 	
-	{
-		std::shared_ptr<int> ptr2 = ptr1;
-	}
-
-	using namespace std; 
-	cout << *ptr1;
-	cout << endl; 
-	cout << ptr1.use_count(); 
-	*/
-
-	StrBlob b; 
-	{
-		auto a = b;
-		a.push_back("meow"); 
-	}
+	StrBlob b({"meow"});
+	auto& s = b.front(); 
+	s = "woof"; 
 	b.print(); 
 }
