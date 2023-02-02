@@ -1,0 +1,5 @@
+shared_ptr<int> p(new int(42));
+process(shared_ptr<int>(p)); 
+
+reference count of p will get incremented when being passed to process and decremented after executing process 
+reference count will stay the same in the end so there is nothing wrong with this function call 
