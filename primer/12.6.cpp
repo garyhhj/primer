@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-
+/*
 std::vector<int>* factory() {
 	return new std::vector<int>; 
 }
@@ -35,3 +35,4 @@ int main() {
 
 	
 }
+*/
