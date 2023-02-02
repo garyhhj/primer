@@ -25,6 +25,9 @@
     <Filter Include="Source Files\ch11">
       <UniqueIdentifier>{80eccb26-f771-40bc-8a3b-55ec9685de9b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ch12">
+      <UniqueIdentifier>{12cc8f77-d81a-4c1c-8172-4695491a8ac4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="8.1.cpp">
@@ -457,6 +460,9 @@
     </Text>
     <Text Include="11.37.txt">
       <Filter>Source Files\ch11</Filter>
+    </Text>
+    <Text Include="12.1.txt">
+      <Filter>Source Files\ch12</Filter>
     </Text>
   </ItemGroup>
 </Project>

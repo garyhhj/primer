@@ -1,0 +1,2 @@
+b2  is no longer accessable so there hsould be 0 elements 
+b1  has 3 elements 
