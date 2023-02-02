@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 
+/*
 class StrBlob {
 public: 
 	typedef std::vector<std::string>::size_type size_type; 
@@ -97,3 +98,4 @@ int main() {
 	s = "woof"; 
 	b.print(); 
 }
+*/
