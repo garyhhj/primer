@@ -1,0 +1,2 @@
+we don't need to check specific values for i and only 0 since in front back and pop_back, we just need to make sure that the 
+vector isn't empty 
