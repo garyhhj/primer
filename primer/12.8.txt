@@ -1,0 +1,1 @@
+the return type must be int* or else there will be memory leak 

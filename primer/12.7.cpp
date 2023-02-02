@@ -2,7 +2,7 @@
 #include <memory>
 #include <vector>
 
-
+/*
 std::shared_ptr<std::vector<int>> factory() {
 	return std::make_shared<std::vector<int>>(); 
 }
@@ -31,3 +31,4 @@ int main() {
 	print(pvi); 
 
 }
+*/

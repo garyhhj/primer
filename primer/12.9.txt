@@ -1,0 +1,9 @@
+int* q = new int(42), *r = new int(100); 
+r = q; 
+// r and q now both point to memory address holding int value of 42
+// memory originally allocated to r holding int value of 100 is lost (memory leak)
+
+auto q2 = make_shared<int>(42), r2 = make_shared<int>(100); 
+r2 = q2
+//reference count for address with integer value 100 is decreased to zero so object is destroyed and deallocated 
+//r2 and q2 now both pointer to address with integer value of 42, reference count of both smart pointers are increased 
