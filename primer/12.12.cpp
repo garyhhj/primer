@@ -2,7 +2,7 @@
 #include <iostream>
 #include <memory>
 
-
+/*
 void process(std::shared_ptr<int> p) {
 	//use p
 	std::cout << p.use_count() << std::endl;
@@ -27,6 +27,4 @@ int main() {
 
 	std::cout << *p << std::endl; 
 }
-
-
-
+*/

@@ -1,0 +1,3 @@
+delete p would free the same underlying memory as sp, making sp a dangling pointer 
+sp would then free itself after it is no long accessable 
+freeing already freed memory causes an error 

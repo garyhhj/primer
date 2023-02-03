@@ -494,5 +494,8 @@
     <Text Include="12.10.txt">
       <Filter>Source Files\ch12</Filter>
     </Text>
+    <Text Include="12.13.txt">
+      <Filter>Source Files\ch12</Filter>
+    </Text>
   </ItemGroup>
 </Project>
