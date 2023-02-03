@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-
+/*
 int main() {
 
 	int len;
@@ -15,3 +15,4 @@ int main() {
 	std::cout << cptr << std::endl; 
 	
 }
+*/
