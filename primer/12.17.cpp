@@ -1,6 +1,7 @@
 #include <iostream>
 #include <memory>
 
+/*
 int main() {
 	int ix = 1024, * pi = &ix, * pi2 = new int(2048); 
 	typedef std::unique_ptr<int> intP; 
@@ -18,3 +19,4 @@ int main() {
 	intP p5(p2.get()); //not ok, p2 and p5 would share the same underlying memory. that same memory will be freed twice when unique_ptr is destroyed
 
 }
+*/
