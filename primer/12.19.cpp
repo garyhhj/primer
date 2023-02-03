@@ -3,11 +3,11 @@
 #include <vector>
 #include <string>
 
+/*
 
-
-/*****************
+*****************
 * StrBlobPtr Class
-******************/
+******************
 
 class StrBlobPtr {
 public: 
@@ -57,9 +57,9 @@ StrBlobPtr& StrBlobPtr::incr() {
 }
 
 
-/***************
+***************
 * StrBlob Class
-****************/
+****************
 
 class StrBlob {
 public:
@@ -164,4 +164,4 @@ int main() {
 	s = "woof";
 	b.print();
 }
-
+*/
