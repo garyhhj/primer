@@ -18,5 +18,8 @@ int main() {
 		c[i] = s12[i]; 
 	}
 
-	std::cout << int(s12[s12.size()]); 
+	//std::cout << int(s12[s12.size()]); 
+	std::cout << c; 
+
+	delete[] c;
 }
