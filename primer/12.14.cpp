@@ -1,6 +1,7 @@
 #include <iostream>
 #include <memory>
 
+/*
 struct destination {
 	int id;
 	destination(int i) : id(i) {}
@@ -36,3 +37,4 @@ int main() {
 
 	return 0; 
 }
+*/
