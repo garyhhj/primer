@@ -24,7 +24,7 @@ private:
 
 //functions related to SalesData
 SalesData add(SalesData& a, SalesData& b); 
-void read(std::istream& istr, SalesData& salesData);
+std::istream& read(std::istream& istr, SalesData& salesData);
 void print(const SalesData& salesData); 
 
 //functions related to SalesData definitions 
@@ -35,7 +35,7 @@ SalesData add(SalesData& a, SalesData& b) {
 	return res; 
 }
 
-void read(std::istream& istr, SalesData& salesData) {
+std::istream& read(std::istream& istr, SalesData& salesData) {
 	std::string newBookNo; 
 	unsigned newUnitsSold; 
 	double newRevenue; 
@@ -44,7 +44,7 @@ void read(std::istream& istr, SalesData& salesData) {
 	salesData.changeIsbn(newBookNo); 
 	salesData.changeUnitsSold(newUnitsSold); 
 	salesData.changeRevenue(newRevenue); 
-	return; 
+	return istr; 
 }
 
 void print(const SalesData& salesData) {
