@@ -28,6 +28,9 @@
     <Filter Include="Source Files\ch12">
       <UniqueIdentifier>{12cc8f77-d81a-4c1c-8172-4695491a8ac4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ch7">
+      <UniqueIdentifier>{f09c3cd9-6669-4e07-885e-ea18ccca244f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="8.1.cpp">
@@ -329,6 +332,9 @@
     </ClCompile>
     <ClCompile Include="12.26.cpp">
       <Filter>Source Files\ch12</Filter>
+    </ClCompile>
+    <ClCompile Include="7.1.cpp">
+      <Filter>Source Files\ch7</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
