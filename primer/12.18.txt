@@ -1,2 +1,2 @@
 shared_ptr do not need release. We can just allocate another pointer to point to the same memroy instead of transfering 
-ownership of memory to another pointer using release in unique_ptr 
+ownership of memory to another pointer using release in unique_ptr
