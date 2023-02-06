@@ -339,6 +339,9 @@
     <ClCompile Include="7.2.cpp">
       <Filter>Source Files\ch7</Filter>
     </ClCompile>
+    <ClCompile Include="7.4.cpp">
+      <Filter>Source Files\ch7</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="8.2.txt">

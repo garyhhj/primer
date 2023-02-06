@@ -2,6 +2,7 @@
 
 #include <string>
 
+/*
 class SalesData {
 public: 
 
@@ -44,3 +45,4 @@ int main() {
 
 }
 
+*/
