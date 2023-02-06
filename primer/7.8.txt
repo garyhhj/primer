@@ -1,0 +1,2 @@
+read changes the member values 
+print does not 

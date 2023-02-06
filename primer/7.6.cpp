@@ -2,7 +2,7 @@
 
 #include <string>
 
-
+/*
 class SalesData {
 public:
 
@@ -67,7 +67,7 @@ void SalesData::changeRevenue(const double newRevenue) { revenue = newRevenue; }
 SalesData& SalesData::combine(const SalesData& rhs) {
 	unitsSold += rhs.unitsSold;
 	revenue += rhs.revenue;
-	return *this;
+	return *this; 
 }
 
 
@@ -77,4 +77,4 @@ int main() {
 	std::cout << sd1.isbn() << std::endl;
 
 }
-
+*/
