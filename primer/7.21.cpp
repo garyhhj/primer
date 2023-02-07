@@ -2,7 +2,7 @@
 
 #include <string>
 
-
+/*
 class SalesData {
 	//friend functions 
 	friend SalesData add(SalesData& a, SalesData& b);
@@ -92,3 +92,4 @@ int main() {
 	SalesData sd3("meowww", 2, 3);
 	print(sd3);
 }
+*/
