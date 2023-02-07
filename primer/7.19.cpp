@@ -3,6 +3,7 @@
 //data and implmentation are kept private 
 //interface is kept public 
 
+/*
 class Person {
 public:
 	Person() = default;
@@ -15,3 +16,4 @@ private:
 	std::string name;
 	std::string address;
 };
+*/
