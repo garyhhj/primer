@@ -3,7 +3,7 @@
 #include <string>
 
 /*
-class SalesData; 
+class SalesData;
 
 //functions related to SalesData
 SalesData add(SalesData& a, SalesData& b);
@@ -90,10 +90,10 @@ int main() {
 
 	print(sd1);
 
-	SalesData sd2("meoww"); 
-	print(sd2); 
+	SalesData sd2("meoww");
+	print(sd2);
 
-	SalesData sd3("meowww", 2, 3); 
-	print(sd3); 
+	SalesData sd3("meowww", 2, 3);
+	print(sd3);
 }
 */
