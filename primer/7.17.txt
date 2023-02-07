@@ -1,0 +1,2 @@
+class has default private access specifier 
+struct has default public access specifier 
