@@ -1,0 +1,5 @@
+
+friend functions are functions that are not part of a class but also has access to all class member functions
+
+friend functions are useful for defining additional interfaces that are not public member functions 
+friends violates the principles of encapsulation and is conceptually messy 
