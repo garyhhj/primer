@@ -1,0 +1,1 @@
+yes because the members are using built-in types and std::string which has copy constructor and assignment operator defined 

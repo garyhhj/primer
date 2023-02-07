@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+/*
 class Screen {
 typedef std::string::size_type pos; 
 
@@ -23,3 +24,4 @@ private:
 int main() {
 
 }
+*/
