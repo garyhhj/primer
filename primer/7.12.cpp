@@ -2,15 +2,24 @@
 
 #include <string>
 
-/*
+class SalesData; 
+
+//functions related to SalesData
+SalesData add(SalesData& a, SalesData& b);
+std::istream& read(std::istream& istr, SalesData& salesData);
+void print(const SalesData& salesData);
+
+
+
 class SalesData {
 public:
-	
-	SalesData() = default; 
+
+	SalesData() = default;
 	SalesData(const std::string& initialBookNo) : bookNo(initialBookNo) {}
-	SalesData(const std::string& initialBookNo, const unsigned initialUnitsSold, const double initialRevenue) 
+	SalesData(const std::string& initialBookNo, const unsigned initialUnitsSold, const double initialRevenue)
 		: bookNo(initialBookNo), unitsSold(initialUnitsSold), revenue(initialRevenue) {}
-	SalesData(std::istream& istr);
+	SalesData(std::istream& istr) { read(istr, *this); }
+
 
 	std::string isbn() const;
 	unsigned getUnitsSold() const;
@@ -28,10 +37,7 @@ private:
 	double revenue = 0.0;
 };
 
-//functions related to SalesData
-SalesData add(SalesData& a, SalesData& b);
-std::istream& read(std::istream& istr, SalesData& salesData);
-void print(const SalesData& salesData);
+
 
 //functions related to SalesData definitions
 SalesData add(SalesData& a, SalesData& b) {
@@ -61,9 +67,8 @@ void print(const SalesData& salesData) {
 	return;
 }
 
-//class member function definitions
-SalesData::SalesData(std::istream& istr) { read(istr, *this); }
 
+//class member function definitions
 std::string SalesData::isbn() const { return bookNo; }
 unsigned SalesData::getUnitsSold() const { return unitsSold; }
 double SalesData::getRevenue() const { return revenue; }
@@ -80,10 +85,13 @@ SalesData& SalesData::combine(const SalesData& rhs) {
 
 
 int main() {
-	SalesData sd1(std::cin); 
+	SalesData sd1(std::cin);
 
-	print(sd1); 
+	print(sd1);
 
+	SalesData sd2("meoww"); 
+	print(sd2); 
+
+	SalesData sd3("meowww", 2, 3); 
+	print(sd3); 
 }
-*/
-
