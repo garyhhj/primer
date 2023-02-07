@@ -563,5 +563,8 @@
     <Text Include="7.10.txt">
       <Filter>Source Files\ch7</Filter>
     </Text>
+    <Text Include="7.16.txt">
+      <Filter>Source Files\ch7</Filter>
+    </Text>
   </ItemGroup>
 </Project>

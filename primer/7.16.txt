@@ -1,0 +1,3 @@
+there is no limit to how many access specifier may appear inside a class 
+define members that users can access as public, generally define constructors as public
+define members that you don't wnat users to access as private, generally define data members and implmentation details private 
