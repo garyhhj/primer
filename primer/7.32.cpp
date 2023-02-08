@@ -2,6 +2,7 @@
 #include <string>
 #include <vector>
 
+/*
 class Screen; 
 class WindowsMgr {
 
@@ -25,7 +26,6 @@ public:
 
 
 private:
-public: 
 	pos row; 
 	pos col;
 	std::string content; 
@@ -45,3 +45,4 @@ int main() {
 
 	wm.clear(0); 
 }
+*/
