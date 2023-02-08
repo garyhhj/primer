@@ -1,6 +1,7 @@
 
 class Y; 
 
+/*
 class X {
 public: 
 	Y* yptr; 
@@ -15,3 +16,4 @@ int main() {
 	Y y; 
 	x.yptr = &y; 
 }
+*/
