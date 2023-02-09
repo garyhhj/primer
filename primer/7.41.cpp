@@ -1,6 +1,7 @@
 //understanding order of delegating constructor 
 #include <iostream>
 
+/*
 class Meow {
 public: 
 	Meow() : a(1) {
@@ -24,3 +25,4 @@ public:
 int main() {
 	Meow meow(2, 3); 
 }
+*/

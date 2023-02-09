@@ -387,7 +387,10 @@
     <ClCompile Include="7.36.cpp">
       <Filter>Source Files\ch7</Filter>
     </ClCompile>
-    <ClCompile Include="7.40.cpp">
+    <ClCompile Include="7.41.cpp">
+      <Filter>Source Files\ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="7.43.cpp">
       <Filter>Source Files\ch7</Filter>
     </ClCompile>
   </ItemGroup>
