@@ -1,0 +1,1 @@
+no, you can not have two default constructors (constructor with no argument or default values for all arguments)
