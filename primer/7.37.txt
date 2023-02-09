@@ -1,0 +1,9 @@
+
+
+Sales_data first_item(cin); //uses Sales_data(std::istream &is) { //some code ... }
+
+int main() {
+//both uses Sales_data (std::string s = "") : bookNo(s) {}
+ Sales_data next; 
+ Sales_data last("9-999-99999-9"); 
+}
