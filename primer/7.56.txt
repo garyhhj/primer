@@ -1,0 +1,9 @@
+static member is a class member is that is associated with the class but not any individual objects of the class. 
+
+Advantages: 
+-saves memory 
+-updating the static member updates it for all the objects of the class 
+-static members can have incomplete types 
+
+difference to ordinary class members
+-ordinary class members belongs to an object, static class members belong to the class 
