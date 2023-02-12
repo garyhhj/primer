@@ -1,0 +1,6 @@
+a destructor is ~className()
+
+for synthesized destructors 
+some disallow the types from being destroyed, otherwise, it has an empty function body 
+
+a destructor is synthesized when none are defined by the class 
