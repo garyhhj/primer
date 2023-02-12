@@ -1,0 +1,7 @@
+Sales_data::Sales_data(Sales_data rhs);
+
+the function has a nonreference value for argument which will call the copy constructor 
+ 
+the copy constructor has a nonreference value as argument which will call the copy constructor 
+
+the copy constructor will keep calling itself indefinately 
