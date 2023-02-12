@@ -1,0 +1,9 @@
+copy constructor is a constructor that takes a reference of the same object type as argument (with the rest of the arguments being default arguments or no argument)
+
+it is invoked when there is invoked when 
+- = assignment is used to construct an object 
+- function is called with parameter being nonreference values 
+- function is returning parameter with nonreference values 
+- brace initialization of arrays or aggregate class 
+
+a compiler may choose to use direct initialization to construct an object in place of copy initialization when copy initialization is normally called 
