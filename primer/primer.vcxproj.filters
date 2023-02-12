@@ -411,6 +411,9 @@
     <ClCompile Include="13.5.cpp">
       <Filter>Source Files\ch13</Filter>
     </ClCompile>
+    <ClCompile Include="13.8.cpp">
+      <Filter>Source Files\ch13</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="8.2.txt">
