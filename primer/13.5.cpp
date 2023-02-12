@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-
+/*
 class HasPtr {
 public:
 	HasPtr(const std::string& s = std::string()) : ps(new std::string(s)), i(0) { }
@@ -23,3 +23,4 @@ int main() {
 	std::string s;
 	std::cin >> s;
 }
+*/

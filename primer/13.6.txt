@@ -1,0 +1,10 @@
+copy-assignment operator is "="
+
+it is used when copying object of the same type with "="
+
+some synthesized copy assignment operator doesn't allow assignment. Otherwise, it uses 
+the types of each non-static member's copy assignment operator to copy objects from rhs to lhs
+
+the class synethesizes its own copy assignment operator when it does not define its own
+
+
