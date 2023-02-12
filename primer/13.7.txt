@@ -1,0 +1,2 @@
+when we use the assignment operator, on StrBlob, the pointer is copied but the vector that the pointer points to is not 
+similar behavior with StrBlobPtr 
