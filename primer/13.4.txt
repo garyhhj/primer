@@ -1,0 +1,17 @@
+Point global;
+
+//copy constructor called on argument 
+Point foo_bar(Point arg)
+{
+//copy constructor called for "local = arg" and heap 
+ Point local = arg, *heap = new Point(global); 
+
+ //copy constructor called for heap 
+ *heap = local; 
+
+ //copy constructor called for brace initialization
+ Point pa[ 4 ] = { local, *heap }; 
+ 
+ //copy constructor called 
+ return *heap;
+}

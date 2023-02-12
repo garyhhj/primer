@@ -653,5 +653,8 @@
     <Text Include="13.2.txt">
       <Filter>Source Files\ch13</Filter>
     </Text>
+    <Text Include="13.4.txt">
+      <Filter>Source Files\ch13</Filter>
+    </Text>
   </ItemGroup>
 </Project>
