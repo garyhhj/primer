@@ -23,9 +23,9 @@ private:
 
 HasPtr& HasPtr::operator=(const HasPtr& rhs) {
 	std::cout << "calling overloaded assignment operator" << std::endl;
-	std::string* newps = new std::string(*(rhs.ps)); 
+	std::string* newps = new std::string(*(rhs.ps));
 	delete ps;
-	ps = newps; 
+	ps = newps;
 	i = rhs.i;
 	return *this;
 }
@@ -36,7 +36,7 @@ int main() {
 
 	HasPtr hp2;
 
-	hp2 = hp2; 
+	hp2 = hp2;
 
 
 	std::string s;
