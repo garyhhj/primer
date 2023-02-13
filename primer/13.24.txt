@@ -1,0 +1,3 @@
+if HasPtr has no destructor, there would be memory leak since std::string* ps would not be deleted 
+if there is no copy constructor defined, the synthesized copy constructor would just copy each argument from rhs to lhs 
+the difference is that std::string* ps would be the same pointer as the one for rhs; 
