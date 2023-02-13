@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+/*
 class Employee {
 public: 
 
@@ -22,3 +23,4 @@ int main() {
 	Employee g; 
 	std::cout << g.name << " " << g.id << std::endl; 
 }
+*/

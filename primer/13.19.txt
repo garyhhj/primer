@@ -1,0 +1,2 @@
+no, if we copy an employee over, its the same employee so it should have the same id referring to that employee
+the compiler synthesized copy constructor and copy assignment operator does this
