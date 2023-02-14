@@ -262,6 +262,7 @@
     <ClCompile Include="13.22.cpp" />
     <ClCompile Include="13.23.cpp" />
     <ClCompile Include="13.27.cpp" />
+    <ClCompile Include="13.30.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="8.2.txt" />
