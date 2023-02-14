@@ -1,0 +1,7 @@
+generally rvalues are temperatory and lvalues are "permanent". Lvalue - location value 
+
+assignments, subscripts, dereference, prefix increment/decrement  are all expressions that return lvalue 
+arithmetic, relational, bitwise, post increment/decrement are all expressions that return rvalue 
+
+rvalue references must be bounded to an rvalue and is shown through T&& 
+lvalue references must be bounded to an lvalue or a const rvalue is show through T& 
