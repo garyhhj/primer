@@ -1,0 +1,2 @@
+the swap inside swap(HasPtr&, HasPtr&) 
+does not cause a recursion loop because it calls std::swap inside the function(not swap(HasPtr&, HasPtr&))
