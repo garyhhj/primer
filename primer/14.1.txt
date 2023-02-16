@@ -1,0 +1,6 @@
+overloaded operator are the same as normal operators in that the interface is the same 
+overloaded operators maintain the same precedence as normal operators 
+
+they are different since you can specify the functions that those operators perform 
+they are also different in that those operator are treated like function calls so that order of evaluation of overloaded operators is not guranteed, ex. &&, ||
+

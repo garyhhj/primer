@@ -4,6 +4,7 @@
 #include <memory>
 #include <utility>
 
+/*
 #include "memAllocator.h" //own custom address sanitizer 
 extern MemAllocator memAllocator;
 
@@ -140,3 +141,4 @@ int main() {
 	run(); 
 	memAllocator.memoryInUse(); 
 }
+*/
