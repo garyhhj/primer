@@ -2,12 +2,14 @@
 #include <string>
 #include <vector>
 #include <memory>
+#include <utility>
 
 #include "memAllocator.h" //own custom address sanitizer 
 extern MemAllocator memAllocator;
 
 class StrVec {
 	friend void print(const StrVec& strVec);
+	friend void swap(StrVec& a, StrVec& b);
 public: 
 
 	StrVec() : firstElement(nullptr), firstFree(nullptr), cap(nullptr) {}
@@ -15,10 +17,10 @@ public:
 
 	~StrVec(); //destructor 
 	StrVec(StrVec& rhs); //copy constructor 
-	StrVec& operator=(const StrVec rhs); //copy assignment operator  
+	StrVec& operator=(const StrVec& rhs); //copy assignment operator  
 	
 	StrVec(StrVec&& rhs); //move constructor 
-	StrVec& operator=(StrVec&& rhs); //move assignment operator 
+	StrVec& operator=(StrVec&& rhs) noexcept; //move assignment operator 
 
 	void push_back(const std::string& arg); 
 	void pop_back(); 
@@ -32,13 +34,22 @@ private:
 
 void print(const StrVec& strVec) {
 	std::string* curr = strVec.firstElement;
+	std::cout << "\n"; 
 	std::cout << "strVec: "; 
 	while (curr != strVec.firstFree) {
 		std::cout << *curr << ", "; 
 		++curr; 
 	}
-	std::cout << std::endl; 
+	std::cout << "\n" << std::endl;
 }
+
+void swap(StrVec& a, StrVec& b) {
+	using std::swap; 
+	swap(a.firstElement, b.firstElement); 
+	swap(a.firstFree, b.firstFree); 
+	swap(a.cap, b.cap); 
+}
+
 
 StrVec::StrVec(const std::vector<std::string>& initializer) {
 	//allocate some memory 
@@ -47,22 +58,85 @@ StrVec::StrVec(const std::vector<std::string>& initializer) {
 	cap = firstElement + initializer.size() * 2 + 1; 
 
 	//fill string
-	
-	
+	std::string* curr = firstElement; 
+	for (const auto& s : initializer) {
+		*curr = s; 
+	}
 }
+
+
+StrVec::StrVec(StrVec& rhs) {
+	std::cout << "copy constructor called " << std::endl; 
+
+	size_t numElements = rhs.firstFree - rhs.firstElement; 
+
+	firstElement = new std::string[numElements * 2];
+	firstFree = firstElement + numElements;
+	cap = firstElement + numElements * 2 + 1;
+
+	//fill string
+	std::string* curr = firstElement;
+	while (curr != firstFree) {
+		*curr = *(rhs.firstElement + (curr - firstElement));
+		++curr; 
+	}
+}
+
+StrVec& StrVec::operator=(const StrVec& rhs) {
+	std::cout << "copy assignment operator called" << std::endl; 
+	
+	size_t numElements = rhs.firstFree - rhs.firstElement;
+
+	delete[] firstElement; 
+	firstElement = new std::string[numElements * 2];
+	firstFree = firstElement + numElements;
+	cap = firstElement + numElements * 2 + 1;
+
+	//fill string
+	std::string* curr = firstElement;
+	while (curr != firstFree) {
+		*curr = *(rhs.firstElement + (curr - firstElement));
+		++curr;
+	}
+
+	return *this; 
+}
+
+StrVec::StrVec(StrVec&& rhs) 
+	: firstElement(rhs.firstElement), firstFree(rhs.firstFree), cap(rhs.cap) {
+	std::cout << "move constructor called" << std::endl; 
+
+	rhs.firstElement = nullptr; 
+	rhs.firstFree = nullptr; 
+	rhs.cap = nullptr; 
+}
+
+StrVec& StrVec::operator=(StrVec&& rhs) noexcept {
+	firstElement = rhs.firstElement; 
+	firstFree = rhs.firstFree; 
+	cap = rhs.cap; 
+
+	rhs.firstElement = nullptr; 
+	rhs.firstFree = nullptr; 
+	rhs.cap = nullptr; 
+
+	return *this; 
+}
+
 
 StrVec::~StrVec() {
 	delete[] firstElement; 
 }
 
-
 void run() {
 	std::vector<std::string> init = { "meow" };
+
 	StrVec a(init);
+	StrVec b;
+	b = a; 
 }
 
 int main() {
-
 	run(); 
 	memAllocator.memoryInUse(); 
 }
