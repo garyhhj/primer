@@ -44,6 +44,7 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
+    <EnableASAN>true</EnableASAN>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -265,6 +266,8 @@
     <ClCompile Include="13.30.cpp" />
     <ClCompile Include="13.39.cpp" />
     <ClCompile Include="13.46.cpp" />
+    <ClCompile Include="13.49.cpp" />
+    <ClCompile Include="memAllocator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="8.2.txt" />
@@ -360,6 +363,9 @@
     <Text Include="13.32.txt" />
     <Text Include="13.33.txt" />
     <Text Include="13.45.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="memAllocator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
