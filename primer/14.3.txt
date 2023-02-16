@@ -1,0 +1,4 @@
+a) string 
+b) string
+c) vector 
+d) string 
