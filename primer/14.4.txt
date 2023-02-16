@@ -1,0 +1,15 @@
+rules
+=, [], (), -> must be class members 
++= and -= usually class members 
+operators that change state of object should be class members &, --, ++ 
++, -, etc should be non class members
+
+
+a) %, non class members 
+b) &=, compound operator so should be class members
+c) ++, changes state of object so shoudl be class members 
+d) ->, must be class members 
+e) <<, non class members 
+f) &&, non class members
+g) ==, class members (non member? but then comparing between two different T objects... I guess it makes sense)
+h) (), must be class members 
