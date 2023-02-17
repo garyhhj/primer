@@ -1,8 +1,9 @@
 #include <string>
 #include <iostream>
 
-/*
+
 class SalesData {
+	friend SalesData operator+(SalesData& lhs, SalesData& rhs);
 	friend std::ostream& operator<<(std::ostream& ostr, SalesData& salesData);
 	friend std::istream& operator>>(std::istream& istr, SalesData& salesData);
 
@@ -16,7 +17,7 @@ public:
 	SalesData(const std::string& newBookNo) : bookNo(newBookNo), unitsSold(0), revenue(0) {}
 	SalesData(std::istream& istr) : SalesData() { read(istr, *this); }
 
-	SalesData& operator+=(SalesData rhs);
+	SalesData& operator+=(const SalesData& rhs);
 
 private:
 	std::string bookNo;
@@ -24,9 +25,29 @@ private:
 	double revenue;
 };
 
-SalesData& operator+(SalesData& lhs, SalesData& rhs);
+SalesData& SalesData::operator+=(const SalesData& rhs) {
+	if (bookNo != rhs.bookNo) {
+		return *this; 
+	}
+
+	unitsSold += rhs.unitsSold; 
+	revenue += rhs.revenue; 
+	return *this; 
+}
+
+
+SalesData operator+(SalesData& lhs, SalesData& rhs);
 std::istream& operator>>(std::istream& istr, SalesData& salesData);
 std::ostream& operator<<(std::ostream& ostr, SalesData& salesData);
+
+SalesData operator+(SalesData& lhs, SalesData& rhs) {
+	SalesData newSalesData; 
+	newSalesData += lhs; 
+	newSalesData += rhs; 
+
+	return newSalesData; 
+}
+
 
 std::istream& operator>>(std::istream& istr, SalesData& salesData) {
 	istr >> salesData.bookNo >> salesData.unitsSold >> salesData.revenue;
@@ -65,10 +86,9 @@ void print(const SalesData& salesData) {
 int main() {
 	SalesData a("meow", 21, 32);
 
-	SalesData b("meow");
+	SalesData b("meow", 23, 12);
 
-	std::cin >> a;
-	std::cout << a;
-
+	a = a + b; 
+	
+	std::cout << a << std::endl; 
 }
-*/
