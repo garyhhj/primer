@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+/*
 struct PrintString {
 	
 	std::string operator()() {
@@ -18,3 +19,4 @@ int main() {
 	PrintString ps; 
 	std::cout << ps(); 
 }
+*/
