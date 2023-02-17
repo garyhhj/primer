@@ -1,0 +1,4 @@
+the code does not check for the state of the istream object 
+
+the first one would read properly but the second one wouldn't 
+we are not sure about the value of the SalesData object after reading the second input 
