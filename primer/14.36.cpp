@@ -2,6 +2,7 @@
 #include <string>
 #include <vector>
 
+/*
 struct PrintString {
 
 	std::string operator()() {
@@ -31,4 +32,5 @@ int main() {
 		std::cout << s << "\n";
 	}
 }
+*/
 
