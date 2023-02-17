@@ -1,11 +1,17 @@
+//will define comparison operator for salesData class 
+
+
 #include <string>
 #include <iostream>
 
-/*
+
 class SalesData {
 	friend SalesData operator+(SalesData& lhs, SalesData& rhs);
 	friend std::ostream& operator<<(std::ostream& ostr, SalesData& salesData);
 	friend std::istream& operator>>(std::istream& istr, SalesData& salesData);
+	friend bool operator==(const SalesData& lhs, const SalesData& rhs);
+	friend bool operator!=(const SalesData& lhs, const SalesData& rhs);
+
 
 	friend std::istream& read(std::istream& istr, SalesData& salesData);
 	friend void print(const SalesData& salesData);
@@ -27,25 +33,28 @@ private:
 
 SalesData& SalesData::operator+=(const SalesData& rhs) {
 	if (bookNo != rhs.bookNo) {
-		return *this; 
+		return *this;
 	}
 
-	unitsSold += rhs.unitsSold; 
-	revenue += rhs.revenue; 
-	return *this; 
+	unitsSold += rhs.unitsSold;
+	revenue += rhs.revenue;
+	return *this;
 }
 
 
 SalesData operator+(SalesData& lhs, SalesData& rhs);
 std::istream& operator>>(std::istream& istr, SalesData& salesData);
 std::ostream& operator<<(std::ostream& ostr, SalesData& salesData);
+bool operator==(const SalesData& lhs, const SalesData& rhs); 
+bool operator!=(const SalesData& lhs, const SalesData& rhs);
+
 
 SalesData operator+(SalesData& lhs, SalesData& rhs) {
-	SalesData newSalesData; 
-	newSalesData += lhs; 
-	newSalesData += rhs; 
+	SalesData newSalesData;
+	newSalesData += lhs;
+	newSalesData += rhs;
 
-	return newSalesData; 
+	return newSalesData;
 }
 
 
@@ -63,6 +72,16 @@ std::ostream& operator<<(std::ostream& ostr, SalesData& salesData) {
 		"revenue: " << salesData.revenue << "\n";
 
 	return ostr;
+}
+
+bool operator==(const SalesData& lhs, const SalesData& rhs) {
+	return lhs.bookNo == rhs.bookNo &&
+		lhs.revenue == rhs.revenue &&
+		lhs.unitsSold == rhs.unitsSold; 
+}
+
+bool operator!=(const SalesData& lhs, const SalesData& rhs) {
+	return !(lhs == rhs); 
 }
 
 
@@ -86,10 +105,13 @@ void print(const SalesData& salesData) {
 int main() {
 	SalesData a("meow", 21, 32);
 
-	SalesData b("meow", 23, 12);
+	SalesData b("meow", 21, 32);
 
-	a = a + b; 
-	
-	std::cout << a << std::endl; 
+	if (a != b) {
+		std::cout << "eq" << std::endl; 
+	}
+	else {
+		std::cout << "not eq" << std::endl; 
+	}
+	std::cout << a << std::endl;
 }
-*/
