@@ -1,7 +1,7 @@
 #include <string>
 #include <iostream>
 
-/*
+
 class SalesData {
 	friend std::ostream& operator<<(std::ostream& ostr, SalesData& salesData);
 	friend std::istream& operator>>(std::istream& istr, SalesData& salesData);
@@ -29,11 +29,11 @@ std::istream& operator>>(std::istream& istr, SalesData& salesData);
 std::ostream& operator<<(std::ostream& ostr, SalesData& salesData);
 
 std::istream& operator>>(std::istream& istr, SalesData& salesData) {
-	istr >> salesData.bookNo >> salesData.unitsSold >> salesData.revenue; 
+	istr >> salesData.bookNo >> salesData.unitsSold >> salesData.revenue;
 	if (!istr) {
-		salesData = SalesData(); 
+		salesData = SalesData();
 	}
-	return istr; 
+	return istr;
 }
 
 std::ostream& operator<<(std::ostream& ostr, SalesData& salesData) {
@@ -41,7 +41,7 @@ std::ostream& operator<<(std::ostream& ostr, SalesData& salesData) {
 		"unitsSold: " << salesData.unitsSold << "\n" <<
 		"revenue: " << salesData.revenue << "\n";
 
-	return ostr; 
+	return ostr;
 }
 
 
@@ -68,7 +68,6 @@ int main() {
 	SalesData b("meow");
 
 	std::cin >> a;
-	std::cout << a; 
+	std::cout << a;
 
 }
-*/
