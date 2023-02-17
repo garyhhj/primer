@@ -1,8 +1,7 @@
-
 #include <string>
 #include <iostream>
 
-/*
+
 class SalesData {
 	friend SalesData operator+(SalesData& lhs, SalesData& rhs);
 	friend std::ostream& operator<<(std::ostream& ostr, SalesData& salesData);
@@ -22,6 +21,7 @@ public:
 	SalesData(std::istream& istr) : SalesData() { read(istr, *this); }
 
 	SalesData& operator+=(const SalesData& rhs);
+	SalesData& operator=(const std::string& isbn); 
 
 private:
 	std::string bookNo;
@@ -39,6 +39,10 @@ SalesData& SalesData::operator+=(const SalesData& rhs) {
 	return *this;
 }
 
+SalesData& SalesData::operator=(const std::string& isbn) {
+	bookNo = isbn; 
+	return *this; 
+}
 
 SalesData operator+(SalesData& lhs, SalesData& rhs);
 std::istream& operator>>(std::istream& istr, SalesData& salesData);
@@ -103,14 +107,8 @@ void print(const SalesData& salesData) {
 int main() {
 	SalesData a("meow", 21, 32);
 
-	SalesData b("meow", 21, 32);
 
-	if (a != b) {
-		std::cout << "eq" << std::endl;
-	}
-	else {
-		std::cout << "not eq" << std::endl;
-	}
-	std::cout << a << std::endl;
+	a = "woof"; 
+
+	std::cout << a; 
 }
-*/
