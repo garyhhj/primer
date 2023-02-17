@@ -1,0 +1,5 @@
++ operator will return a copy since it has to construct a new object(return a reference will mean that object will be destroyed in local scope)
+
++= operator will return a reference since it can return an existing object 
+
+by letting + call +=, we can limit the amount of copies of objects being created and copied 
