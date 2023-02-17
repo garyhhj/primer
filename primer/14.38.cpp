@@ -2,6 +2,7 @@
 #include <string>
 #include <vector>
 
+/*
 struct Bound {
 
 	Bound(int l, int h) : lower(l), higher(h) {}
@@ -31,3 +32,4 @@ int main() {
 
 	std::cout << "num obj: " << count << std::endl; 
 }
+*/
