@@ -1,0 +1,9 @@
+ 0-201-99999-9 10 24.95
+
+ input is valid 
+
+
+  10 24.95 0-210-99999-9
+
+  input is not valid and failbit will be set for istr (since std::cin is used for istream)
+  the object will have the same value as a default initialized one 
