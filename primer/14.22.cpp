@@ -1,7 +1,7 @@
 #include <string>
 #include <iostream>
 
-
+/*
 class SalesData {
 	friend SalesData operator+(SalesData& lhs, SalesData& rhs);
 	friend std::ostream& operator<<(std::ostream& ostr, SalesData& salesData);
@@ -110,5 +110,8 @@ int main() {
 
 	a = "woof"; 
 
-	std::cout << a; 
+	std::cout << a;
+
+
 }
+*/
