@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 
-
+/*
 bool Equals(int i) { return i == 3; }
 
 struct Eq {
@@ -26,3 +26,4 @@ int main() {
 		std::cout << i << " "; 
 	}
 }
+*/

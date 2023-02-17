@@ -280,6 +280,7 @@
     <ClCompile Include="14.35.cpp" />
     <ClCompile Include="14.36.cpp" />
     <ClCompile Include="14.37.cpp" />
+    <ClCompile Include="14.38.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="8.2.txt" />
