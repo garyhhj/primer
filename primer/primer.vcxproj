@@ -281,6 +281,7 @@
     <ClCompile Include="14.36.cpp" />
     <ClCompile Include="14.37.cpp" />
     <ClCompile Include="14.38.cpp" />
+    <ClCompile Include="14.42.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="8.2.txt" />
@@ -385,6 +386,7 @@
     <Text Include="14.21.txt" />
     <Text Include="14.29.txt" />
     <Text Include="14.33.txt" />
+    <Text Include="14.41.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="memAllocator.h" />
