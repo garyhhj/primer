@@ -4,6 +4,7 @@
 #include <algorithm>
 #include <string>
 
+/*
 int main() {
 
 
@@ -16,5 +17,6 @@ int main() {
 	std::cout << "greater than 1024: "; 
 	std::cout << count << std::endl; 
 
-
+	//todo: part b and c 
 }
+*/	
