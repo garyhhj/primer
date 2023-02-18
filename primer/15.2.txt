@@ -1,0 +1,1 @@
+is like private except it also allows derived class to access its member functions and variables 
