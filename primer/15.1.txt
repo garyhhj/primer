@@ -1,0 +1,2 @@
+a virtual function is a function where the base class expects its derived class to override the definition. 
+The call to a virtual function will be dynamically bound by the type of pointer or reference 
