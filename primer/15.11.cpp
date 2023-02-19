@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-
+/*
 class Quote {
 	using bookName = std::string;
 public:
@@ -78,3 +78,4 @@ int main() {
 
 	meow2.debug(); 
 }
+*/
