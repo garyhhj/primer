@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+/*
 class Quote {
 	using bookName = std::string; 
 public:
@@ -25,7 +26,7 @@ double Quote::getPrice() const { return price; }
 
 class BulkQuote : public Quote{
 public: 
-	BulkQuote(unsigned qty = 0) : quantity(qty) {
+	BulkQuote(unsigned qty = 0) {
 		std::cout << "BulkQuote constructor" << std::endl; 
 	}
 
@@ -46,4 +47,4 @@ int main() {
 	std::cout << "bulkQuote info: " << meow2.getName() << " " << meow2.getPrice() << std::endl << std::endl; 
 	
 }
-
+*/
