@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-/*
+
 class Quote {
 	using bookName = std::string;
 public:
@@ -22,12 +22,12 @@ protected:
 };
 
 Quote::bookName Quote::getName() const {
-	std::cout << "Quote getName called" << std::endl; 
-	return name; 
+	std::cout << "Quote getName called" << std::endl;
+	return name;
 }
-double Quote::getPrice() const { 
-	std::cout << "Quote getPrice called" << std::endl; 
-	return price; 
+double Quote::getPrice() const {
+	std::cout << "Quote getPrice called" << std::endl;
+	return price;
 }
 
 class BulkQuote : public Quote{
@@ -41,19 +41,26 @@ public:
 	double getPrice() const override;
 private:
 	unsigned quantity;
-	unsigned minQuantity; 
+	unsigned minQuantity;
 };
 
 
-double BulkQuote::getPrice() const { 
-	std::cout << "BulkQuote getPrice called" << std::endl; 
-	return (quantity > minQuantity ? (price - 1) * quantity : price * quantity); 
+double BulkQuote::getPrice() const {
+	std::cout << "BulkQuote getPrice called" << std::endl;
+	return (quantity > minQuantity ? (price - 1) * quantity : price * quantity);
+}
+
+void printTotal(Quote& quoteObj) {
+	std::cout << "calling print total: "; 
+	std::cout << quoteObj.getPrice() << std::endl; 
 }
 
 
 int main() {
 	BulkQuote meow2;
-	std::cout << "bulkQuote info: " << meow2.getName() << " " << meow2.getPrice() << std::endl << std::endl;
+	//std::cout << "bulkQuote info: " << meow2.getName() << " " << meow2.getPrice() << std::endl << std::endl;
+	Quote meow1; 
+
+	printTotal(meow1); 
 }
 
-*/
