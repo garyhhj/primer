@@ -292,6 +292,8 @@
     <ClCompile Include="15.11.cpp" />
     <ClCompile Include="15.13.cpp" />
     <ClCompile Include="15.14.cpp" />
+    <ClCompile Include="15.16.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="8.2.txt" />
