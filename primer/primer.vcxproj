@@ -288,7 +288,8 @@
     <ClCompile Include="15.5.cpp" />
     <ClCompile Include="15.6.cpp" />
     <ClCompile Include="15.7.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="15.10.cpp" />
+    <ClCompile Include="15.11.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="8.2.txt" />
