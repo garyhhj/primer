@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+/*
 using namespace std; 
 class base{
 public:
@@ -19,3 +20,4 @@ int main() {
 	derived d; 
 	d.print(std::cout); 
 }
+*/
