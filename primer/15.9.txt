@@ -1,0 +1,19 @@
+when an object is of a type of derived class, it can be implicitly converted from derived to base class. When assigning an object of a derived type to 
+base type, it can have a different type for its static and dynamic type 
+
+class Base {
+}; 
+
+class Derived : public Base{
+}; 
+
+Derived b; 
+Derived bp = new Derived; 
+
+Base* a1 = &b; 
+Base& a2 = bp; 
+
+Derived* bp = & b; 
+Base* a3 = bp; 
+
+a1, a2, and a3 have different static and dynamic types 

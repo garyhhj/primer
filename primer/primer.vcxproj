@@ -288,6 +288,7 @@
     <ClCompile Include="15.5.cpp" />
     <ClCompile Include="15.6.cpp" />
     <ClCompile Include="15.7.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="8.2.txt" />
@@ -396,6 +397,7 @@
     <Text Include="15.1.txt" />
     <Text Include="15.2.txt" />
     <Text Include="15.8.txt" />
+    <Text Include="15.9.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="memAllocator.h" />
