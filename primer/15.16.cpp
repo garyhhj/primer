@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-
+/*
 class Quote {
 public:
 	Quote(std::string nName = "", double nPrice = 0) : name(nName), price(nPrice) {
@@ -87,4 +87,6 @@ double BulkQuote::getPrice() const {
 int main() {
 	BulkQuote meow2;
 	Quote meow;
+
 }
+*/
