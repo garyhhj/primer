@@ -1,0 +1,14 @@
+a static type is the type that is used when declaring a variable 
+
+ex. 
+SalesData a //static type of SalesData
+
+a dynamic type is the type that an object is dynamically bound to and is determined during runtime 
+
+ex. 
+class BookSalesData : public SalesData{
+	//some code for the class 
+}; 
+
+BookSalesData a; 
+SalesData* b = &a; //b has a dynamic type of BookSalesData*  

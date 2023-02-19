@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-
+/*
 class Quote {
 	using bookName = std::string;
 public:
@@ -61,6 +61,6 @@ int main() {
 	//std::cout << "bulkQuote info: " << meow2.getName() << " " << meow2.getPrice() << std::endl << std::endl;
 	Quote meow1; 
 
-	printTotal(meow1); 
+	printTotal(meow1); S
 }
-
+*/
