@@ -1,0 +1,3 @@
+base class needs virtual destructor to allow classes in its inheritancy hierarchy to dynamically allocate objects. 
+
+virtual destructors must free dynamically allocated objects in its class 
