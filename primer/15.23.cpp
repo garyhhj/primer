@@ -1,6 +1,6 @@
 #include <iostream>
 
-
+/*
 using namespace std; 
 class Base {
 public:
@@ -34,3 +34,5 @@ public:
 	}
 		 // overrides virtual f2 from D1
 };
+
+*/

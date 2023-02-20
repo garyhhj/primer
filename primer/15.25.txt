@@ -1,0 +1,4 @@
+Bulk_Quote inherits from Disc_Quote 
+
+if there exists a user defined default constructor, the compiler won't synthesize one in the inheritance hierarchy. Since we defined one in Quote, we must define one in Disc_Quote
+we define a default constructor for Disc_Quote so Bulk_Quote constructor can call Disc_Quote constructor which calls Quote constructor to initialize member variables 
