@@ -409,6 +409,7 @@
     <Text Include="15.17.txt" />
     <Text Include="15.18.txt" />
     <Text Include="15.24.txt" />
+    <Text Include="15.25.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="memAllocator.h" />
