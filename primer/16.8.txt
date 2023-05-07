@@ -1,0 +1,2 @@
+some of the library functions and containers don't have < defined but all have == and != defined 
+using == and != means we don't have to worry about the type we are dealing with 

@@ -1,0 +1,5 @@
+a function template is code which instantiates functions 
+a class template is code which instantiates classes 
+
+class tempalte differ from function template in that the compiler cannot deduce the template parameter 
+types for a class template 

@@ -1,5 +1,8 @@
 #include <iostream>
 #include <string>
+
+
+/*
 #include "memAllocator.h"
 
 extern MemAllocator memAllocator;
@@ -176,4 +179,4 @@ int main() {
 	run();
 	memAllocator.memoryInUse(); 
 }
-	
+	*/
