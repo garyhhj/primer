@@ -3,3 +3,6 @@ a class template is code which instantiates classes
 
 class tempalte differ from function template in that the compiler cannot deduce the template parameter 
 types for a class template 
+
+for class templates, we must supply additional information inside angle brackets following a template's name 
+to be used in place of the template parameter 
