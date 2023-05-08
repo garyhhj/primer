@@ -4,7 +4,7 @@
 #include <list>
 
 #include <string>
-
+/*
 template <typename elemType> class ListItem;
 template <typename elemType> class List {
 public:
@@ -21,3 +21,4 @@ int main() {
 	List<int> l;
 	return 0;
 }
+*/
