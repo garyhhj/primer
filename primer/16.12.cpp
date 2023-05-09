@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 
+/*
 template <typename T> 
 class blob {
 	typename typedef std::vector<T>::size_type size_type;
@@ -26,9 +27,9 @@ void blob<T>::pop_back() {
 	blob<T>::data.pop_back(); 
 }
 
-template <typename T> 
-T& blob<T>::operator[](size_type size) {
-	return blob<T>::data[size]; 
+template <typename A> 
+A& blob<A>::operator[](size_type size) {
+	return blob<A>::data[size]; 
 }
 
 
@@ -37,3 +38,4 @@ int main() {
 	b.push_back(1); 
 	std::cout << b[0] << std::endl; 
 }
+*/
