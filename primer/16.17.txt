@@ -1,0 +1,3 @@
+There is no difference in using typename or class in template parameter declaration 
+
+When accessing a class's type members we must prefix with typename 
