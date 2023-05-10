@@ -3,6 +3,8 @@
 
 #include <algorithm>
 
+/*
+
 template<typename T> 
 typename T::value_type top(const T& c) {
 	if (!c.empty()) {
@@ -67,7 +69,7 @@ public:
 	Big(const Big& b) : data(b.data) {
 		std::cout << "copy constructor called" << std::endl; 
 	}
-	const Big& operator=(const Big& b) {
+	Big& operator=(const Big& b) {
 		std::cout << "copy assignment operator called" << std::endl; 
 		this->data = b.data; 
 		return *this; 
@@ -133,3 +135,4 @@ int main() {
 	std::cout << std::endl; 
 	*/
 }
+*/

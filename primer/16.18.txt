@@ -1,0 +1,15 @@
+a) illegal need typename before U 
+template <typename T, typename U, typename V> void f1(T, U, V); 
+
+b) illegal, T is a type not a variable 
+template <typename T> T f2(int& varName); 
+
+c) legal ??? or does inline need to be before T return type 
+inline template<typename T> T foo(T, unsigned int*); 
+
+d) illegal, missing return type 
+template<typename T> T f4(T, T); 
+
+e) legal but its hidding the typedef so typedef is useless here 
+typedef char Ctype; //can remove this line, it does nothing 
+template<typename Ctype> Ctype f5(Ctype a); 
