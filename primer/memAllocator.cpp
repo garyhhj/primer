@@ -1,5 +1,5 @@
 #include "memAllocator.h"
-
+/*
 MemAllocator memAllocator;
 
 void MemAllocator::memoryInUse() {
@@ -34,3 +34,4 @@ void operator delete[](void* memory, size_t size) {
 
 	free(memory);
 }
+*/

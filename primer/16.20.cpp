@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-
+/*
 template <typename T>
 void print(const T& container) {
 	typedef typename T::const_iterator itType;
@@ -18,3 +18,4 @@ int main() {
 	std::vector<int> meow = { 1, 2, 3, 4 };
 	print(meow);
 }
+*/
