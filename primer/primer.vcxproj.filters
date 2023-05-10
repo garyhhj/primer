@@ -576,6 +576,9 @@
     <ClCompile Include="16.19.cpp">
       <Filter>Source Files\ch16</Filter>
     </ClCompile>
+    <ClCompile Include="16.20.cpp">
+      <Filter>Source Files\ch16</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="8.2.txt">
