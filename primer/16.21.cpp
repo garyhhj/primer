@@ -1,7 +1,7 @@
 #include <iostream>
 #include <memory>
 
-
+/*
 class DebugDelete {
 public: 
 	template <typename T> 
@@ -22,3 +22,4 @@ int main() {
 	std::shared_ptr<int> p1(new int(3), DebugDelete());
 
 }
+*/
