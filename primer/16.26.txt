@@ -1,0 +1,2 @@
+no, a template class can only be instantiated with NoDefault if all member functions can be instantiated with NoDefault. 
+vector's template member functions, specifically it's ctor, will call teh default constructor of NoDefault so this can not be done. 
