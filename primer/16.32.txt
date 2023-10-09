@@ -1,0 +1,5 @@
+When a template function is called or instantiated, the compiler tries to deduce a correct set of types for the template 
+parameters. THe compiler will do two type conversions for this, const conversion and array to pointer converion. It may remove 
+consts for non ref types since its not modifying the copy and arrays will be converted to pointer types. If there 
+are no suitable type conversions, you will get a compiler error. 
+
