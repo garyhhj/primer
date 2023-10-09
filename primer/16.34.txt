@@ -1,0 +1,8 @@
+template <class T> int compare(const T&, const T&); 
+
+a) compare("hi", "world"); 
+no, the type deduced is char [3] and char[6], they are not the same. You can fix by writing 
+compare<std::string("hi", "world")
+
+b) compare("bye", "dad")
+yes
