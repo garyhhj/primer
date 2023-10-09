@@ -1,0 +1,5 @@
+extern template class vector<string>; 
+tells linker to look for an instantiation of template class vector<string> somewhere else in the program 
+
+template class vector<Sales_data>; 
+tells compiler to generate an instantiation of template class vector<Sales_data> 
