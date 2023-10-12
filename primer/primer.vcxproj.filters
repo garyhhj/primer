@@ -585,6 +585,9 @@
     <ClCompile Include="16.22.cpp">
       <Filter>Source Files\ch16</Filter>
     </ClCompile>
+    <ClCompile Include="16.39.cpp">
+      <Filter>Source Files\ch16</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="8.2.txt">
@@ -942,6 +945,33 @@
       <Filter>Source Files\ch16</Filter>
     </Text>
     <Text Include="sample.txt">
+      <Filter>Source Files\ch16</Filter>
+    </Text>
+    <Text Include="16.25.txt">
+      <Filter>Source Files\ch16</Filter>
+    </Text>
+    <Text Include="16.26.txt">
+      <Filter>Source Files\ch16</Filter>
+    </Text>
+    <Text Include="16.31.txt">
+      <Filter>Source Files\ch16</Filter>
+    </Text>
+    <Text Include="16.32.txt">
+      <Filter>Source Files\ch16</Filter>
+    </Text>
+    <Text Include="16.33.txt">
+      <Filter>Source Files\ch16</Filter>
+    </Text>
+    <Text Include="16.34.txt">
+      <Filter>Source Files\ch16</Filter>
+    </Text>
+    <Text Include="16.35.txt">
+      <Filter>Source Files\ch16</Filter>
+    </Text>
+    <Text Include="16.37.txt">
+      <Filter>Source Files\ch16</Filter>
+    </Text>
+    <Text Include="16.38.txt">
       <Filter>Source Files\ch16</Filter>
     </Text>
   </ItemGroup>

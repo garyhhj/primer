@@ -5,6 +5,7 @@
 #include <map>
 #include <memory>
 
+/*
 //custom deleter 
 class DebugDelete {
 public: 
@@ -75,3 +76,4 @@ int main() {
 	pgm_ptr->Print(); 
 }
 
+*/
