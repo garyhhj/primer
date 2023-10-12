@@ -1,0 +1,15 @@
+template <typename T> T calc(T, int); 
+template <typename T> T fcn(T, T); 
+double d; float f; char c; 
+
+a) calc(c, 'c')
+not an error, T will be of type char 
+
+b) calc(d, f)
+not an error, T will be of type double 
+
+c) fcn(c, 'c')
+not an error, T will be of type char 
+
+d) fcn(d, f)
+error, T can not be both a double and float at the same time 
