@@ -1,0 +1,3 @@
+no, max can not have take parameters with two different types. 
+In this case, you can cast the int to a double and then use max 
+
